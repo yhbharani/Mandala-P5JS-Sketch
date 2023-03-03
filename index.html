@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,14 +9,87 @@
   <script language="javascript" type="text/javascript" src="mandalaP5JS.js"></script>
   <!-- OK, YOU CAN MAKE CHANGES BELOW THIS LINE AGAIN -->
 
-  <style>
-    body {
-      padding: 0;
-      margin: 0;
-    }
-  </style>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/style.css">
+
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+
 </head>
 
 <body>
+  <div class="row head">
+
+    <div class="row col navbar">
+     <span class="col-2 idc"> 
+     </span>
+     <span class="col-2 yhb">
+     </span>
+    </div>
+
+    <div class="row heading">
+     <h2 class="welcome">
+       Welcome to
+      </h2>
+      <h1 class="mandala">
+        MANDALAVERSE 
+      </h1>
+      <p class="intro">
+        The mandala image generation tool  - <br> 
+        Made in a generative art class by <a href="https://yashbharani.com/" style="color: #FFD600">Yash Bharani</a>, <br> 
+        under the mentorship of <a href="https://www.instagram.com/decodingkunst/?hl=en" style="color: #00FFE0;">Siddhartha Mukherjee</a> <br>  
+      </p>
+    </div>
+
+  </div>
+
+
+  <div class="art">
+ <main>
+ </main>
+  </div>
+
+  <div class="help">
+    <h3 class="instructions">Instructions</h3>
+    <div class="container">
+      <div class="row point">
+        <p class="col-auto">Left click to clear screen.</p>
+        <img class=" col-auto icon" src="/assets/leftClick.svg">
+        /
+        <img class="col-auto icon" src="/assets/erase.svg">
+      </div>
+      <div class="row point">
+        <p class="col-auto">Right click to save PNG</p>
+        <img class="col-auto icon" src="/assets/rightClick.svg">
+        /
+        <img class="col-auto icon" src="/assets/save.svg">
+      </div>   
+      <div class="row point">
+        <p class="col-auto">Move Cursor in X direction to Increase the radius.</p>
+        <img class=" col-auto icon" src="/assets/mouse.svg">
+        X &nbsp; /
+        <img class=" col-auto icon" src="/assets/rightArrow.svg"> 
+      </div>  
+      <div class="row point">
+        <p class="col-auto">Move Cursor in Y direction to increase the no. of shapes.</p>
+        <img class=" col-auto icon" src="/assets/mouse.svg">
+        Y &nbsp; /
+        <img class=" col-auto icon" src="/assets/wheel.svg">
+      </div>  
+      <div class="row point">
+        <p class="col-auto">Find out more at its GitHub Repo.</p>
+        <img class="col-auto icon" src="/assets/github.svg">
+      </div> 
+    </p>
+  </div>
+
+
+  <!-- Bootstrap Script-->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+
 </body>
 </html>

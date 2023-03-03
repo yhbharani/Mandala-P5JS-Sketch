@@ -1,0 +1,114 @@
+body{
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+    color: white;
+    font-family: 'Mukta', sans-serif;
+    background-color: black;
+    box-sizing: content-box;
+    width: 100%;
+}
+
+
+.row{
+    margin: 0px !important;
+    width: 100% !important;
+}
+
+
+
+.head{
+    margin: 0px;    
+    background: #180728;
+}
+
+.idc{
+    background: center no-repeat;
+    background-image: url("/assets/IDC.png");
+    background-size: contain;
+    height: 80px;
+    width: auto;
+  
+}
+
+.yhb{
+    background: center no-repeat;
+    background-image: url("/assets/yhb.png");
+    background-size: contain;
+    height: 80px;
+    width: auto;
+}
+
+.welcome{
+    font-family: 'Mukta';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 48px;
+    line-height: 80px;
+    text-align: center;
+    color: #FFD600;
+}
+.mandala{
+    font-family: 'Mukta';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 100px;
+    text-align: center;
+    letter-spacing: 0.1em;
+
+    color: #130142;
+
+    -webkit-text-stroke-color:  #00FFE0;
+    -webkit-text-stroke-width: 1px ;
+
+}
+.intro{
+    font-family: 'Mukta';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 200%;
+    text-align: center;
+    color: #EDEDED;
+}
+a{
+    text-decoration: none;
+}
+.art{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: #180728;
+}
+.help{
+    background-color: #180728;
+    font-family: 'Mukta';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 200%;
+    color: #EDEDED;
+    padding: 2em;
+    padding-bottom: 500px;
+}
+.instructions{
+    font-family: 'Mukta';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 200%;
+color: #FFD600;
+}
+.point{
+    display: flex;
+    justify-content: flex-start;
+    align-items: baseline;
+    padding-top: 10px ;
+    padding-bottom: 10px ;
+}
+.icon{
+    width: 16px;
+    height: 16px;
+    object-fit: contain;
+}
+

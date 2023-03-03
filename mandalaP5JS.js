@@ -1,12 +1,12 @@
 let t=0;
 let petals=3;
 let x1,x2,x3,x4,y1,y2,y3,y4;
-let outsize = 800;
+let outsize = 1000;
 
 function setup() {
   
   let ang=TWO_PI/petals;
-  createCanvas(800,800);
+  createCanvas(windowWidth, windowHeight);
   background(0);
   blendMode(ADD);
   colorMode(HSB, 100);
@@ -16,7 +16,7 @@ function setup() {
 
 function draw() {
   t++;
-  let radBase = map(mouseX, 0, width, 0, outsize/2);
+  let radBase = map(mouseX, 0, width, 0, outsize/2.4);
   if(t>=100){
     t=0;
   }
@@ -35,7 +35,6 @@ function draw() {
   y3=outsize/5*noise(frameCount*0.005)*tan(ang);
   y4=0;
   
-  //fill(255,255,255,10);
   noFill();
   stroke(t*0.5,255,255, 100);
   strokeWeight(outsize/1000);
@@ -68,7 +67,8 @@ function draw() {
   createbg();
   
   if (mouseIsPressed === true){
-   background(0,255,255);
+   clear();
+    background(0,0,0);
   }
 
 }
@@ -83,4 +83,8 @@ function createbg(){
   //background(0,50);
   blendMode(ADD);
 
+}
+
+function windowResized() {
+  resizeCanvas(windowWidth, windowHeight);
 }
